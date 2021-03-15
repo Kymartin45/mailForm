@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Contact form for CSUMB Business Technology Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contact form 
+This form was built using [React](https://reactjs.org/)
+Built using [EmailJS](https://www.emailjs.com/) to send emails using client-side technologies only. \
+Javascript libray is used to trigger email submissions \
+
+### Documentation
+```js 
+
+emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+  
+```
 
 ## Available Scripts
 
