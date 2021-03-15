@@ -1,4 +1,4 @@
-# Contact form for CSUMB Business Technology Club
+# Contact form for CSUMB Club/s
 
 ## Contact form 
 **This form was built using [React](https://reactjs.org/)**\
