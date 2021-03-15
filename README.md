@@ -1,7 +1,7 @@
 # Contact form for CSUMB Business Technology Club
 
 ## Contact form 
-This form was built using [React](https://reactjs.org/)\
+*This form was built using [React](https://reactjs.org/)\*
 Built using [EmailJS](https://www.emailjs.com/) to send emails using client-side technologies only.
 Javascript libray is used to trigger email submissions
 
