@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 import './css/style.css';
 
 const location = require('./img/location.png');
@@ -15,7 +15,7 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_g16zd8g', 'template_4svnmks', e.target, 'user_8Y6Oq0h9a7i64BZATxUlo')
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -98,6 +98,10 @@ export default function ContactUs() {
                     </div>
                         <input type="submit" class="submit" value="Send" className="btn"/>
                     </form>
+                    
+                    <script 
+                        src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+                    </script>
                 </div>
                 </div>
             </div>
